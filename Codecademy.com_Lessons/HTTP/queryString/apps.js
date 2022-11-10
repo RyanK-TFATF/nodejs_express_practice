@@ -5,3 +5,4 @@ const split = url.split('?');
 const queryToParse = split[1];
 
 console.log(queryToParse); 
+const parsedQuery = querystring.parse(queryToParse);
