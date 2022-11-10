@@ -11,7 +11,10 @@ const server = http.createServer((req, res) => {
 });
 
 const handleGetRequest = (req, res) => {
-
+  const { pathname }  = new URL(req.url);
+  if (pathname === '/users') {
+    
+  }
 };
 
 // Starts server listening on specified port
