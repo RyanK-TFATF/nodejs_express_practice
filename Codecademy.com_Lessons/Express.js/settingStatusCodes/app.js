@@ -1,3 +1,9 @@
+/*
+Let’s make sure that our GET /expressions/:id route handles invalid requests properly.
+For instance if we request an expression ID that does not exist.
+Complete your route so that it sends back the correct expression object if it exists and sends back a 404 response if it does not.
+*/
+
 const express = require('express');
 const app = express();
 
@@ -17,7 +23,13 @@ app.get('/expressions', (req, res, next) => {
 
 app.get('/expressions/:id', (req, res, next) => {
   const foundExpression = getElementById(req.params.id, expressions);
-  res.send(foundExpression);
+  if (foundExpression) {
+    res.send(foundExpression);
+  } else {
+    res.status(404).send('Expression not found.');
+  }
+  
+
 });
 
 app.listen(PORT, () => {
