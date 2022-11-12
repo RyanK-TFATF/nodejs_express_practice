@@ -8,12 +8,17 @@ const app = express();
 // Requirements for HTTP 
 const http = require('http');
 
+// Create (POST) -- handlePostRequest
 
+// Read (GET) -- handleGetRequest
 
+// Update (PUT) -- handlePutRequest
+
+// Delete (DELETE) -- handleDeleteRequest
 
 // Start Server on 4002
 const server = http.createServer((req, res) => {
-    res.end('Hello World');
+    res.end('Monster Picker HTTP Server Operational');
   });  
   server.listen(4002, () => {
     
