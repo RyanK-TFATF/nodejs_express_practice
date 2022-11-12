@@ -1,5 +1,5 @@
 // D&D Monster Picker -- Create, Read, Update, Delete Monsters and Associated Images 
-// v0.1b
+// v0.1d
 
 // Requirements for Express
 const express = require('express');
@@ -8,10 +8,16 @@ const app = express();
 // Requirements for HTTP 
 const http = require('http');
 
+// Empty Array for Monsters
+const monsters = []; 
+
+
 // Create (POST) -- handlePostRequest
 
 // Read (GET) -- handleGetRequest
+app.get('/monsters', req, res, next) => {
 
+}
 // Update (PUT) -- handlePutRequest
 
 // Delete (DELETE) -- handleDeleteRequest
