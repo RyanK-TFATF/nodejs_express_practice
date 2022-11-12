@@ -1,12 +1,13 @@
 // Monster Manual API
-// v0.2b
+// v0.2c
 
 // Requirements for Express
 const express = require('express');
 const app = express(); 
 const port = 4001
 
-
+// Serve Static Files
+app.use(express.static('public'))
 
 // Create (POST) -- Template
 app.post('/', (req, res) =>  {
