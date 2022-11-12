@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RyanK-TFATF/nodejs_express_practice/issues"
   },
-  "homepage": "https://github.com/RyanK-TFATF/nodejs_express_practice#readme"
+  "homepage": "https://github.com/RyanK-TFATF/nodejs_express_practice#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
