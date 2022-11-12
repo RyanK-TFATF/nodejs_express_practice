@@ -4,7 +4,7 @@
 // Requirements for Express
 const express = require('express');
 const app = express(); 
-const port = 4000
+const port = 4001
 
 
 
@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 // Delete (DELETE) -- handleDeleteRequest
 
-// Start Server on 4002
+// Start Server on 4001
 app.listen(port, () => {
     console.log(`Server Passed Perception Check: Port ${port}`)
 })
