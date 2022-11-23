@@ -1,8 +1,8 @@
-// Array Practice 
+// Array Practice -- Ryan Kelley 
 
-const intArr = [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const intArr = [-4, -3, -2, -1, 0, 1, 2, 3, 4];
 const stringArr = ["Red", "Green", "Blue", "Yellow", "Orange"];
-const floatArr  = [-1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5];
+const floatArr  = [-1.0, -0.5, 0.0, 0.5, 1.0];
 const boolArr = [true, false, true, true, false, false];
 
 // Array Methods -- .map(), .filter(), .forEach()
@@ -18,3 +18,11 @@ function isEven(num) {
 
 const evenArr = intArr.filter(isEven);
 console.log(evenArr);
+
+// .map() creates a new array by calling the specified function on all non-empty elements. 
+function squareIt(num) {
+    return num * num; 
+
+}
+const squaredFloatArr = floatArr.map(squareIt);
+console.log(biggerFloatArr);
