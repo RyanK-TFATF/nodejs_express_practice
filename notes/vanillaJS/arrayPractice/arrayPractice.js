@@ -1,7 +1,7 @@
 // Array Practice -- Ryan Kelley 
 
 const intArr = [-4, -3, -2, -1, 0, 1, 2, 3, 4];
-const stringArr = ["Red", "Green", "Blue", "Yellow", "Orange"];
+const stringArr = ['Red', 'Green', 'Blue', 'Yellow', 'Orange'];
 const floatArr  = [-1.0, -0.5, 0.0, 0.5, 1.0];
 const boolArr = [true, false, true, true, false, false];
 
@@ -25,4 +25,10 @@ function squareIt(num) {
 
 }
 const squaredFloatArr = floatArr.map(squareIt);
-console.log(biggerFloatArr);
+console.log(squaredFloatArr);
+
+// .forEach() calls a function for each non-empty element in an array. 
+function inBed(str) {
+    return str.concat(' ', 'in bed.');
+}
+console.log(stringArr.forEach(inBed));
