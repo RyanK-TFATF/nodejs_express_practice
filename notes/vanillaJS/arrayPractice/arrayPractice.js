@@ -27,8 +27,22 @@ function squareIt(num) {
 const squaredFloatArr = floatArr.map(squareIt);
 console.log(squaredFloatArr);
 
-// .forEach() calls a function for each non-empty element in an array. 
+/* .forEach() calls a function for each non-empty element in an array. 
 function inBed(str) {
-    return str.concat(' ', 'in bed.');
+    newString = str + 'in bed.'; 
+    return newString;
 }
+var newStringArr = stringArr.forEach(inBed);
 console.log(stringArr.forEach(inBed));
+console.log(newStringArr.toString()); 
+
+function noU(bool) {
+    if (bool === true) {
+        return false;
+    } else {
+        return true;
+    }
+}
+console.log(boolArr.forEach(noU));
+console.log(boolArr.forEach);
+*/ 
