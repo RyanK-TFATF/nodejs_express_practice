@@ -64,8 +64,19 @@ const peopleArr: People[] = [
         lastName: 'Earp',
         age: 10
     },
-    { firstName: 'Doc', lastName: 'Holliday', age: 10, height: 75, address: { state: 'Florida', zipCode: 32224} } // Added zipCode.  
+    { 
+        firstName: 'Doc', 
+        lastName: 'Holliday', 
+        age: 10, 
+        height: 75, 
+        address: { 
+            state: 'Florida', 
+            zipCode: 32224
+        } 
+    } 
 ];
+
+
 console.log(peopleArr.findIndex((person: any) => {
     return person.lastName === 'Holliday';
 }));
