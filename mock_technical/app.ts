@@ -1,3 +1,4 @@
+/*
 // JavaScript Data Types 
 const myArr: [] = []; // Short hand version. 
 const myBool: boolean = true;
@@ -7,6 +8,7 @@ const myNotANumber = NaN;
 const myNull: null = null;
 const myString: string = 'This is a string.';
 const myUndef: undefined = undefined;
+*/ 
 
 // Data Sets 
 const arrExample = ['Red', 'Blue', 'Green', 'Yellow', 'Orange'];
