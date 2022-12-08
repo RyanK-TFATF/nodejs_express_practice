@@ -23,6 +23,7 @@ const myCards: MagicCards[] = [
         name: 'Black Lotus', 
         color: 5, 
         manaValue: 0,
+        cardType: undefined,
         rarity: 'Rare'
     },
     {
@@ -54,9 +55,21 @@ const myCards: MagicCards[] = [
         rarity: 'Rare'
     },
 ];
+console.log(myCards);
 
+/*
 // Create a new array of cards that are Instants only. 
 const newCards = myCards.filter((card:any) => { // Forgot :any after card
     return card.cardType === 'Instant';      
 });
 console.log(newCards);
+*/ 
+
+// Update Cards with undefined cardTypes -- .map()
+const updatedCards = myCards.map((card:any ) => {
+    if (card.cardType === undefined) {
+        card.cardType = 'Artifact'; 
+    }
+    return card; 
+});
+console.log(updatedCards);
