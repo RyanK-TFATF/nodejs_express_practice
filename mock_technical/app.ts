@@ -85,7 +85,8 @@ console.log(peopleArr.findIndex((person: any) => {
 // .map() will iterate through an array, can map to a new structure. 
 const updatedPeople = peopleArr.map((person: any) => {
     if (person.firstName === 'Wyatt') {
-        delete person.age; // Deletes property from the object. 
+        // person.age = 91; 
+        // delete person.age; Deletes property from the object. 
     } // Do not use else in simple situations.  
     return person;
 });
