@@ -43,6 +43,42 @@ const myCards: MagicCards[] = [
         cardType: 'Creature',
         rarity: 'Rare'
     },
+    {
+        name: 'Plains', 
+        color: 0, 
+        manaValue: 0,
+        cardType: 'Land',
+        rarity: 'Basic Land'
+    },
+    {
+        name: 'Swamp', 
+        color: 0, 
+        manaValue: 0,
+        cardType: 'Land',
+        rarity: 'Basic Land'
+    },
+    {
+        name: 'Island', 
+        color: 0, 
+        manaValue: 0,
+        cardType: 'Land',
+        rarity: 'Basic Land'
+    },
+    {
+        name: 'Forest', 
+        color: 0, 
+        manaValue: 0,
+        cardType: 'Land',
+        rarity: 'Basic Land'
+    },
+    {
+        name: 'Mountain', 
+        color: 0, 
+        manaValue: 0,
+        cardType: 'Land',
+        rarity: 'Basic Land'
+    },
+
 ];
 // console.log(myCards); ARRAY WORKING @ 9:57PM 12/09/22
 
@@ -64,8 +100,15 @@ console.log('Mana Value Sum');
 console.log(manaValueSum);
 */ 
 
+/* NOT COMPLETE -- Create two random 'decks' from the myCards array. -- NOT COMPLETE
+function createDeck(collection, cardList) {
+    collection = myCards;
+    for
+}
+*/ 
 
-
-
-
-
+/* NOT COMPLETE -- async / await Syntax -- NOT COMPLETE 
+async function drawCard(card) {
+    card = {...myCards}
+    const newCard0 = await 
+}
