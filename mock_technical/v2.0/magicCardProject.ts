@@ -18,7 +18,7 @@ const myCards: MagicCards[] = [
     {
         name: 'Lightning Bolt', 
         color: 3, 
-        manaValue: NaN,
+        manaValue: 2,
         cardType: 'Instant',
         rarity: 'Common'
     },
@@ -45,6 +45,27 @@ const myCards: MagicCards[] = [
     },
 ];
 // console.log(myCards); ARRAY WORKING @ 9:57PM 12/09/22
+
+/* Create a sum of the mana values of all cards in the array.  
+
+const manaValueArr = myCards.map((card) => {
+    return card.manaValue;
+});
+
+console.log('Mana Value Array');
+console.log(manaValueArr);
+
+function getCMCSum(total: number, num: number) {
+    return total + num;
+}
+
+const manaValueSum = manaValueArr.reduce(getCMCSum, 0);
+console.log('Mana Value Sum');
+console.log(manaValueSum);
+*/ 
+
+
+
 
 
 
