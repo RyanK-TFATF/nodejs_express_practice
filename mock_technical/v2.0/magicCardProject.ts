@@ -46,7 +46,7 @@ const myCards: MagicCards[] = [
 ];
 // console.log(myCards); ARRAY WORKING @ 9:57PM 12/09/22
 
-/* Create a sum of the mana values of all cards in the array.  
+/* Create a sum of the mana values of all cards in the array.  WORKING @ 10:23PM 12/09/22 
 
 const manaValueArr = myCards.map((card) => {
     return card.manaValue;
