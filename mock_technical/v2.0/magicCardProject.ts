@@ -112,3 +112,4 @@ async function drawCard(card) {
     card = {...myCards}
     const newCard0 = await 
 }
+*/ 
