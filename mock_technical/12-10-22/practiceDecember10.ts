@@ -62,7 +62,7 @@ class Person {
     }   
     // Methods that live within a class. 
     getFirstName() {
-        this.first_name = 'Hello'; 
+        return this.first_name; 
     }
 
     async sleeper() { 
